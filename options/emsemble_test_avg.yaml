@@ -1,0 +1,22 @@
+######### Basic Settings #########
+basic:
+    device: '0'
+    seed: [0] 
+    num_workers: 8
+
+    dataset: ultrasound_dataset2
+    # split_for_valid: False (default)
+
+    # Method Choises: 
+    method: emsemble_test_avg
+
+    pretrain_dir: logs/dataset2/emsemble
+
+    get_roc_auc: true
+
+    get_mistake: true
+    
+    batch_size: 16
+    # save_name: test_multi_branch_cat_018
+    
+            

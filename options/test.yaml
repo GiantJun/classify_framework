@@ -1,0 +1,22 @@
+######### Basic Settings #########
+basic:
+    device: '1'
+    seed: [0] 
+    num_workers: 8
+
+    # dataset: ultrasound_dataset2
+    # split_for_valid: False (default)
+
+    # Method Choises: 
+    method: test
+
+    pretrain_path: logs/finetune/multi_branch_cat_all_dataset2/trainer0_model_dict_150_1.pkl
+
+    get_roc_auc: true
+
+    get_mistake: true
+    
+    batch_size: 16
+    # save_name: test_multi_branch_cat_018
+    
+            

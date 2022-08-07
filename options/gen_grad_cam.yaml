@@ -1,0 +1,16 @@
+######### Basic Settings #########
+basic:
+    device: '0'
+    seed: [0] 
+    num_workers: 8
+
+    # split_for_valid: False (default)
+
+    # Method Choises: 
+    method: gen_grad_cam
+
+    pretrain_path: logs/finetune/multi_branch_cat_all_dataset1/trainer0_model_dict_150_1.pkl
+
+    batch_size: 16
+    
+            
